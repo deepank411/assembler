@@ -1,7 +1,7 @@
 START
 MOV R1 R2
-MOVI R2 1F //hello
-LBL: add R1 R2 R3
+MOVI R2 1F 
+lbl: add R1 R2 R3
 INC R3
 DEC R2
 HALT
